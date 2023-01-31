@@ -8152,6 +8152,15 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+
+  video  {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  }
+  
+
   .float-sm-start {
     float: left !important;
   }
@@ -11562,7 +11571,7 @@ video {
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
@@ -11607,6 +11616,7 @@ video {
     font-size: 4rem;
     line-height: 4rem;
   }
+
 }
 @media (min-width: 992px) {
   .masthead {
