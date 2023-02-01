@@ -11565,7 +11565,7 @@ body {
   border: 0;
 }
 
-video {
+/* video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11578,7 +11578,17 @@ video {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+} */
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto; 
+  height: auto;
+  background-size: cover;
 }
+
 
 .gray {
   filter: grayscale();
@@ -11635,7 +11645,7 @@ video {
 }
 
 .about-section {
-  padding-top: 15rem;
+  padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
   position: relative;
   z-index: 20;
