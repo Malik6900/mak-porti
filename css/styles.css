@@ -11748,6 +11748,8 @@ p, li {
 .content-scroll {
   height: 250px;
   overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #4d7fff #ddd;
 }
 
 /*--scroll bar--*/
@@ -11770,3 +11772,4 @@ p, li {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
