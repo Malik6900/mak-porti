@@ -11744,3 +11744,29 @@ body {
 p, li {
   color: #ccc;
 }
+
+.content-scroll {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+/*--scroll bar--*/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #568A87; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
